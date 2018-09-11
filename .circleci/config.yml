@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: /go/src/github.com/mytheta/weather_cli
+    working_directory: /go/src/github.com/mytheta/weather
     docker:
     - image: circleci/golang:1.9
     steps:
