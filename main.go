@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/mytheta/weather_cli/controller"
+	"github.com/mytheta/weather/controller"
 	"log"
 	"os"
 
@@ -10,7 +10,7 @@ import (
 
 func main() {
 	app := cli.NewApp()
-	app.Name = "greet"
+	app.Name = "weather"
 	app.Usage = "fight the loneliness!"
 	app.Action = controller.Weather
 
