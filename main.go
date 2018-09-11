@@ -1,10 +1,9 @@
 package main
 
 import (
+	"github.com/mytheta/weather_cli/controller"
 	"log"
 	"os"
-
-	"github.com/mytheta/weather_cli/controller"
 
 	"github.com/urfave/cli"
 )
